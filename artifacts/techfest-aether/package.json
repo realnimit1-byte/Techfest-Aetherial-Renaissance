@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/techfest-aether",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "python3 tools/generate_aether_field.py",
+    "dev": "vite --config vite.config.js --host 0.0.0.0",
+    "prebuild": "python3 tools/generate_aether_field.py",
+    "build": "vite build --config vite.config.js",
+    "serve": "vite preview --config vite.config.js --host 0.0.0.0",
+    "serve:python": "python3 tools/serve_static.py",
+    "typecheck": "node --check src/main.js && node --check src/experience.js && node --check src/ui.js && python3 -m py_compile tools/generate_aether_field.py"
+  },
+  "devDependencies": {
+    "three": "^0.180.0",
+    "vite": "catalog:"
+  }
+}

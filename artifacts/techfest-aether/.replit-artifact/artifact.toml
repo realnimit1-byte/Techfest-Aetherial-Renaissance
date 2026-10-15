@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Techfest — Aetherial Renaissance"
+description = "An immersive, scroll-driven WebGL experience for Techfest IIT Bombay’s 30th edition, translating its Aetherial Renaissance identity into an interactive cosmic architecture journey."
+version = "1.0.0"
+id = "artifacts/techfest-aether"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20358
+
+[services.development]
+run = "pnpm --filter @workspace/techfest-aether run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/techfest-aether", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/techfest-aether/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20358"
+BASE_PATH = "/"

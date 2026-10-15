@@ -1,0 +1,1141 @@
+You are an expert creative developer, 3D web designer, interaction designer, and frontend engineer.
+
+I want you to DESIGN AND BUILD a complete, production-ready, immersive 3D interactive website for:
+
+TECHFEST, IIT BOMBAY
+30TH EDITION — 2026
+Theme: “AN AETHERIAL RENAISSANCE”
+Dates: 16–18 December 2026
+Location: IIT Bombay, Mumbai, India
+
+IMPORTANT:
+Do NOT make a generic event landing page.
+Do NOT simply create cards with hover animations.
+Do NOT fake 3D using only CSS.
+Do NOT make it look like a basic student project.
+Do NOT just put particles behind text and call it a 3D website.
+
+This needs to feel like an award-style interactive experience similar in ambition to Awwwards / immersive WebGL websites.
+
+The assignment specifically asks for:
+
+“Design and develop a 3D interactive website for Techfest. Think 3D scroll animations, interactive objects and dynamic transitions. You have full creative freedom on the concept and visuals.”
+
+The final website will be screen-recorded for submission AND uploaded to GitHub as a portfolio project.
+
+==================================================
+1. CORE CREATIVE CONCEPT
+==================================================
+
+Build the experience around the concept:
+
+“AN AETHERIAL RENAISSANCE — Where the Renaissance meets the technological future.”
+
+The Renaissance represented a rebirth of:
+• science
+• engineering
+• art
+• architecture
+• human curiosity
+
+Techfest's Aetherial Renaissance should represent another rebirth where:
+
+ancient architecture → digital architecture
+sculptures → intelligent machines
+sketches → algorithms
+celestial maps → digital networks
+matter → information
+humans → creators of intelligent worlds
+
+The user should feel like they are TRAVELLING THROUGH a mysterious technological universe rather than scrolling through a website.
+
+Scrolling should behave almost like controlling a cinematic camera.
+
+Think:
+
+START
+↓
+enter the Aether
+↓
+discover a floating Techfest artifact
+↓
+travel toward IIT Bombay
+↓
+architecture transforms into technology
+↓
+enter a giant portal
+↓
+explore different technological realms
+↓
+reach the 30th edition reveal
+↓
+discover the personalised Campus Ambassador identity
+↓
+final Techfest cinematic ending
+
+==================================================
+2. VISUAL LANGUAGE
+==================================================
+
+Use a DARK, CINEMATIC, PREMIUM aesthetic.
+
+Primary environment:
+• near-black
+• midnight blue
+• deep violet
+• cosmic blue
+
+Accent lighting:
+• electric blue
+• cyan
+• violet
+• subtle magenta
+• occasional Renaissance gold/champagne metal
+
+Materials:
+• chrome
+• brushed titanium
+• polished silver
+• translucent glass
+• holographic materials
+• dark obsidian
+• reflective metal
+• emissive neon edges
+
+Atmosphere:
+• volumetric-looking light
+• floating dust
+• stars
+• energy particles
+• fog
+• depth
+• subtle film grain
+• glowing technological lines
+
+Avoid excessive rainbow colours.
+
+The overall experience should feel elegant and futuristic rather than gaming-like.
+
+Think:
+
+Renaissance sculpture
+×
+cosmic architecture
+×
+advanced robotics
+×
+Apple-quality presentation
+×
+sci-fi cinematic interface
+×
+Techfest IIT Bombay.
+
+==================================================
+3. USE THE PROVIDED ASSETS
+==================================================
+
+I will upload multiple reference images and a video.
+
+USE THEM.
+
+Analyse the images before designing.
+
+They contain visual references for:
+• Techfest branding
+• Techfest 2026 visual identity
+• “An Aetherial Renaissance”
+• metallic/chrome visual language
+• IIT Bombay-inspired imagery
+• cosmic backgrounds
+• blue/purple technological lines
+• hoodie/poster concepts
+• typography/layout inspiration
+
+Do NOT ignore these assets and replace them with generic stock imagery.
+
+Use them as the PRIMARY ART DIRECTION.
+
+The supplied video may be used as:
+• cinematic transition
+• background sequence
+• portal sequence
+• texture
+• full-screen interlude
+
+depending on what visually works best.
+
+==================================================
+4. ACTUAL 3D — MANDATORY
+==================================================
+
+Use REAL WebGL/3D.
+
+Preferred stack:
+
+React
+Three.js
+React Three Fiber
+@react-three/drei
+GSAP
+GSAP ScrollTrigger
+Framer Motion where appropriate
+
+OR an equivalent technically robust stack.
+
+There must be an actual WebGL canvas.
+
+Create real 3D geometry and environments.
+
+Possible 3D elements:
+
+• metallic Techfest artifact
+• celestial rings
+• floating sculptures
+• abstract Renaissance bust
+• futuristic monolith
+• rotating rings
+• particle clouds
+• floating fragments
+• holographic spheres
+• wireframe architecture
+• portals
+• energy cores
+• floating typography
+• digital terrain
+• architectural columns
+• robotic structures
+
+The central 3D object should react to BOTH:
+
+SCROLL
+and
+MOUSE / POINTER MOVEMENT.
+
+==================================================
+5. SCROLL MUST CONTROL THE 3D WORLD
+==================================================
+
+This is extremely important.
+
+Scrolling should NOT simply fade HTML sections into view.
+
+Scrolling must control:
+
+camera.position.x
+camera.position.y
+camera.position.z
+
+camera rotation
+
+3D object rotation
+
+object scale
+
+object position
+
+lighting
+
+particle density
+
+fog
+
+material emissiveness
+
+object assembly/disassembly
+
+portal opening
+
+scene transitions
+
+Scroll progression should essentially function as a timeline through the 3D environment.
+
+Use GSAP ScrollTrigger or an equivalent scroll timeline.
+
+Example:
+
+0–15%
+Camera approaches floating artifact.
+
+15–30%
+Artifact rotates and breaks into pieces.
+
+30–45%
+Camera flies THROUGH the object.
+
+45–60%
+IIT Bombay-inspired architecture appears.
+
+60–75%
+Architecture becomes wireframe/data.
+
+75–90%
+A giant portal opens.
+
+90–100%
+Camera enters portal and transitions into the next scene.
+
+Make scrolling feel continuous.
+
+==================================================
+6. OPENING EXPERIENCE
+==================================================
+
+Start almost completely black.
+
+Tiny particles slowly appear.
+
+A faint metallic object becomes visible.
+
+Text gradually emerges:
+
+TECHFEST
+IIT BOMBAY
+
+30TH EDITION
+
+Then:
+
+AN AETHERIAL
+RENAISSANCE
+
+16 — 18
+DECEMBER 2026
+
+The 3D artifact should float behind/in between the typography.
+
+Mouse movement should create subtle parallax.
+
+Add something minimal such as:
+
+SCROLL TO ENTER THE AETHER
+
+or
+
+INITIATE DESCENT
+
+The opening needs to look spectacular in the first 5–8 seconds of a screen recording.
+
+==================================================
+7. SCENE 01 — THE AWAKENING
+==================================================
+
+Heading:
+
+THE AWAKENING
+
+Concept:
+
+“Where stone learns to think.”
+
+Create a Renaissance-inspired environment.
+
+Possible scene:
+
+A classical metallic sculpture / abstract bust floating in darkness.
+
+As the user scrolls:
+
+cracks illuminate
+↓
+blue energy appears
+↓
+geometry fragments detach
+↓
+wireframe appears underneath
+↓
+ancient sculpture transforms into futuristic technology
+
+Text can communicate:
+
+The Renaissance reshaped the world through art, science and human curiosity.
+
+The Aetherial Renaissance imagines its next evolution.
+
+Keep text concise.
+
+VISUALS > TEXT.
+
+==================================================
+8. SCENE 02 — IIT BOMBAY / THE ORIGIN
+==================================================
+
+Create an abstract representation inspired by IIT Bombay.
+
+Do not simply show a rectangular photograph.
+
+Create depth using:
+
+layered architecture
+3D planes
+parallax
+wireframe outlines
+fog
+lighting
+particles
+
+Possible heading:
+
+FROM IIT BOMBAY
+TO THE FUTURE.
+
+As the camera moves forward, the architecture transforms into glowing digital geometry.
+
+==================================================
+9. SCENE 03 — THE 30TH EDITION
+==================================================
+
+Create a MASSIVE cinematic reveal.
+
+A huge:
+
+30
+
+should appear inside a rotating celestial machine / portal.
+
+Surround it with:
+
+orbital rings
+floating metallic fragments
+particles
+energy arcs
+symbols
+light rays
+
+Text:
+
+30 YEARS
+OF THE IMPOSSIBLE.
+
+TECHFEST
+IIT BOMBAY
+
+The camera should orbit or fly toward the number as the user scrolls.
+
+==================================================
+10. SCENE 04 — TECHNOLOGY REALMS
+==================================================
+
+Create multiple interactive 3D realms based on actual Techfest areas.
+
+Use current 2026 Techfest information from official Techfest/IIT Bombay sources where possible.
+
+Important technology worlds can include:
+
+AI / INTELLIGENCE
+
+CYBERSECURITY
+
+ROBOTICS
+
+AUTONOMOUS MOBILITY
+
+EV / GREEN MOBILITY
+
+UAV / AEROMODELLING
+
+DIGITAL TWINS / SPATIAL COMPUTING
+
+ENGINEERING
+
+INNOVATION / IDEATES
+
+HACKATHONS
+
+These should NOT appear as ordinary website cards.
+
+Instead imagine floating 3D portals/orbs/objects in space.
+
+Example:
+
+INTELLIGENCE
+A glowing neural sphere.
+
+CYBER
+A rotating encrypted cube / digital fortress.
+
+AUTONOMY
+A futuristic mechanical object with moving rings.
+
+DIGITAL TWINS
+A holographic wireframe city/object.
+
+ROBOTICS
+Mechanical components assembling themselves.
+
+When the pointer moves over a realm:
+
+object reacts
+lighting changes
+label appears
+particles react
+camera subtly moves
+
+When clicked/tapped:
+
+expand information or move the camera closer.
+
+==================================================
+11. REAL TECHFEST CONTENT
+==================================================
+
+Where event information is needed, use factual CURRENT 2026 information from:
+
+Official Techfest IIT Bombay website
+Official IIT Bombay sources
+
+Do NOT invent competitions or event facts.
+
+Examples of current areas/challenges may include things like:
+
+• AI
+• robotics
+• autonomous mobility
+• EV/green mobility
+• cybersecurity
+• UAV/aeromodelling
+• digital twins
+• hackathons
+• workshops
+• Ideates
+• Zonals
+
+Keep factual content easy to update.
+
+Store event data in a clean JS/JSON object where possible.
+
+==================================================
+12. INTERACTIVE OBJECTS
+==================================================
+
+Add multiple pointer-reactive elements.
+
+For example:
+
+Mouse movement subtly rotates the main artifact.
+
+Particles repel from the pointer.
+
+Metallic objects tilt toward the cursor.
+
+Portal energy reacts to cursor proximity.
+
+Floating objects can be clicked.
+
+Buttons can use magnetic cursor behaviour.
+
+Desktop interactions should feel premium.
+
+Mobile must still work without hover.
+
+==================================================
+13. TRANSITIONS
+==================================================
+
+NO ordinary hard section cuts.
+
+Use cinematic transitions.
+
+Examples:
+
+camera flies through an object
+
+portal consumes screen
+
+particles explode then reform
+
+object disintegrates
+
+screen passes through fog
+
+geometry morphs
+
+bright energy flash
+
+camera enters a tunnel
+
+wireframe transformation
+
+The website should feel like ONE CONNECTED WORLD.
+
+==================================================
+14. TYPOGRAPHY
+==================================================
+
+Use a sophisticated pairing.
+
+Display typography:
+elegant editorial / Renaissance-inspired serif
+
+Interface typography:
+modern geometric sans-serif or monospace
+
+Large typography should sometimes interact with the 3D scene.
+
+Allow objects to pass:
+
+behind text
+in front of text
+through typography
+
+Use massive cinematic text sparingly.
+
+Examples:
+
+AN AETHERIAL
+RENAISSANCE
+
+THE
+AWAKENING
+
+30 YEARS
+OF THE
+IMPOSSIBLE
+
+ENTER
+THE AETHER
+
+THE FUTURE
+IS NOT
+ONE DISCIPLINE
+
+==================================================
+15. PERSONALISED CAMPUS AMBASSADOR SECTION
+==================================================
+
+Near the end, subtly personalise the website.
+
+Details:
+
+Name:
+Nimit
+
+College:
+UPES
+
+Role:
+College Ambassador / Campus Ambassador
+Techfest, IIT Bombay
+
+Campus Ambassador ID:
+CA-101315465334
+
+DO NOT expose personal phone number or email address.
+
+Create this as a futuristic identity terminal.
+
+For example:
+
+SIGNAL DETECTED
+
+TECHFEST NETWORK NODE
+
+COLLEGE AMBASSADOR
+
+NIMIT
+UPES
+
+ID:
+CA-101315465334
+
+STATUS:
+CONNECTED
+
+The card could assemble from particles or holographic fragments.
+
+This should be tasteful and secondary to Techfest itself.
+
+==================================================
+16. FINAL SCENE
+==================================================
+
+End with an extremely cinematic final frame.
+
+The camera exits the portal into a huge cosmic environment.
+
+A Techfest-inspired metallic structure/logo appears.
+
+Text:
+
+TECHFEST
+IIT BOMBAY
+
+30TH EDITION
+
+AN AETHERIAL RENAISSANCE
+
+16 — 18 DECEMBER 2026
+
+Optional final line:
+
+THE AETHER AWAITS.
+
+Then allow the environment to continue moving subtly.
+
+This final frame should be ideal for ending the screen recording.
+
+==================================================
+17. NAVIGATION
+==================================================
+
+Keep navigation extremely minimal.
+
+Something similar to:
+
+TECHFEST / IIT BOMBAY
+
+30TH EDITION
+
+MENU
+
+Optional sound toggle.
+
+Optional progress indicator.
+
+Avoid a standard corporate navbar with many links.
+
+==================================================
+18. CUSTOM CURSOR
+==================================================
+
+Desktop only.
+
+Create a subtle custom cursor.
+
+It can become:
+
+circle
+crosshair
+orb
+energy ring
+
+depending on what it is hovering over.
+
+For interactive 3D objects it should change state.
+
+Disable it automatically on touch devices.
+
+==================================================
+19. SOUND
+==================================================
+
+Optional, but if implemented:
+
+Do NOT autoplay audio illegally.
+
+Provide a visible:
+
+SOUND ON / OFF
+
+control.
+
+Possible sounds:
+
+ambient space drone
+subtle mechanical movement
+portal hum
+interface sounds
+
+The website must still feel complete without sound.
+
+==================================================
+20. LOADING SCREEN
+==================================================
+
+Because WebGL assets may take time, create a beautiful loader.
+
+Example:
+
+TECHFEST
+IIT BOMBAY
+
+INITIALISING AETHER...
+
+00%
+↓
+100%
+
+Then transition directly into the hero scene.
+
+Preload important textures/models.
+
+==================================================
+21. PERFORMANCE
+==================================================
+
+This is important.
+
+Target smooth performance on normal student laptops.
+
+Optimise:
+
+textures
+geometry
+particle counts
+pixel ratio
+shadows
+post-processing
+
+Use:
+
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+
+Lazy-load heavy assets when appropriate.
+
+Compress GLB/GLTF models.
+
+Use Draco where useful.
+
+Avoid unnecessary huge textures.
+
+Maintain approximately 60 FPS on a decent laptop.
+
+Provide graceful degradation for weaker/mobile devices.
+
+==================================================
+22. RESPONSIVE DESIGN
+==================================================
+
+Desktop is the priority because the submission will likely be screen-recorded on a laptop.
+
+However, the site must also work on:
+
+desktop
+tablet
+mobile
+
+On mobile:
+
+reduce particle counts
+reduce post-processing
+simplify geometry
+disable cursor effects
+preserve scroll storytelling
+
+Do not simply hide the 3D experience.
+
+==================================================
+23. ACCESSIBILITY
+==================================================
+
+Respect:
+
+prefers-reduced-motion
+
+Provide semantic HTML.
+
+Ensure important text remains readable if WebGL fails.
+
+Provide fallback backgrounds.
+
+Buttons must be keyboard accessible.
+
+==================================================
+24. TECHNICAL STRUCTURE
+==================================================
+
+Build this as a CLEAN GitHub portfolio project.
+
+Suggested architecture:
+
+src/
+  components/
+  scenes/
+  shaders/
+  data/
+  hooks/
+  assets/
+  styles/
+
+public/
+  models/
+  textures/
+  images/
+  video/
+
+Keep components modular.
+
+Do NOT put the entire website inside one giant file.
+
+Separate:
+
+3D scenes
+scroll controller
+UI
+navigation
+data
+loading system
+assets
+
+==================================================
+25. README — VERY IMPORTANT
+==================================================
+
+Create a professional README.md.
+
+Include:
+
+# Techfest IIT Bombay — An Aetherial Renaissance
+
+Description
+
+Project concept
+
+Screenshots / demo section
+
+Features
+
+3D technologies used
+
+Tech stack
+
+Installation
+
+Development
+
+Build
+
+Deployment
+
+Project structure
+
+Performance considerations
+
+Credits
+
+Asset attribution
+
+Disclaimer
+
+Author:
+
+Nimit
+UPES
+Techfest IIT Bombay Campus Ambassador
+
+Mention that this is an independently created interactive concept/project for Techfest.
+
+Do NOT imply that Nimit built the official Techfest website.
+
+==================================================
+26. GITHUB
+==================================================
+
+The repository must be clean enough to publish publicly.
+
+Include:
+
+.gitignore
+
+README.md
+
+package.json
+
+proper scripts
+
+clean commits-friendly structure
+
+NO API keys
+
+NO private information
+
+NO absolute local file paths
+
+NO broken imports
+
+NO unnecessary generated files
+
+==================================================
+27. DEPLOYMENT
+==================================================
+
+The finished project MUST be deployable.
+
+Support at least:
+
+GitHub Pages
+
+and preferably:
+
+Vercel
+
+Make sure asset paths work after deployment.
+
+If using Vite, correctly configure the base path or use deployment-safe relative paths.
+
+Provide exact deployment instructions.
+
+The final output must NOT require me to rewrite code before deployment.
+
+==================================================
+28. SCREEN RECORDING PRIORITY
+==================================================
+
+The assignment accepts a screen recording.
+
+Therefore design the experience so a 45–90 second recording looks spectacular.
+
+The first few seconds must immediately communicate quality.
+
+Ideal recording flow:
+
+0–8 sec
+Aetherial hero reveal
+
+8–18 sec
+3D artifact transformation
+
+18–28 sec
+IIT Bombay world
+
+28–40 sec
+30th edition portal
+
+40–60 sec
+technology realms
+
+60–72 sec
+Campus Ambassador identity
+
+72–85 sec
+final Techfest cinematic reveal
+
+Avoid sections where nothing visually interesting happens while scrolling.
+
+==================================================
+29. MOST IMPORTANT QUALITY REQUIREMENT
+==================================================
+
+Before considering the project finished, ask:
+
+“Does this look like a normal React website with some Three.js decoration?”
+
+If YES, redesign it.
+
+The THREE.JS WORLD should be the website.
+
+HTML content should support the 3D experience rather than the 3D experience decorating the HTML.
+
+The camera journey is the navigation.
+
+Scroll is the timeline.
+
+3D objects are the storytelling mechanism.
+
+==================================================
+30. VISUAL QUALITY BENCHMARK
+==================================================
+
+Study the current Techfest IIT Bombay website before designing.
+
+Understand its:
+
+visual density
+large-scale typography
+dark cinematic atmosphere
+event imagery
+scroll progression
+experimental presentation
+branding
+
+DO NOT clone it.
+
+Create an original experience that feels like a next-generation interpretation of Techfest 2026 and “An Aetherial Renaissance.”
+
+The result should feel sufficiently polished that somebody seeing only the screen recording would immediately understand why the brief specifically asked for a “3D interactive website.”
+
+==================================================
+31. WORKFLOW
+==================================================
+
+Do NOT immediately dump random code.
+
+Work in this order:
+
+STEP 1:
+Analyse all uploaded reference images/video.
+
+STEP 2:
+Inspect the current official Techfest IIT Bombay website and understand the 2026 branding/content.
+
+STEP 3:
+Create a concise scene-by-scene storyboard.
+
+STEP 4:
+Define the 3D objects needed for every scene.
+
+STEP 5:
+Define the scroll/camera timeline.
+
+STEP 6:
+Define asset requirements.
+
+STEP 7:
+Build the WebGL scene.
+
+STEP 8:
+Implement scroll-controlled animation.
+
+STEP 9:
+Add UI/typography.
+
+STEP 10:
+Add interactions.
+
+STEP 11:
+Optimise performance.
+
+STEP 12:
+Test desktop/mobile.
+
+STEP 13:
+Fix every console error, broken asset and layout issue.
+
+STEP 14:
+Prepare GitHub repository.
+
+STEP 15:
+Make the project deployment-ready.
+
+Do not stop after creating a mockup.
+
+I need the WORKING WEBSITE.
+
+==================================================
+FINAL EXPECTATION
+==================================================
+
+Build an immersive 3D digital experience worthy of:
+
+TECHFEST
+IIT BOMBAY
+30TH EDITION
+
+AN AETHERIAL RENAISSANCE
+
+16–18 DECEMBER 2026
+
+It should feel like entering another world.
+
+Dark.
+Metallic.
+Celestial.
+Technological.
+Renaissance-inspired.
+Interactive.
+Cinematic.
+Premium.
+
+The final website must be:
+✓ genuinely 3D
+✓ scroll-driven
+✓ interactive
+✓ responsive
+✓ performant
+✓ visually impressive
+✓ based on supplied Techfest references
+✓ personalised for Nimit / UPES
+✓ GitHub-ready
+✓ deployable
+✓ screen-recording-ready
+
+Do not simplify the concept unless technically necessary.
